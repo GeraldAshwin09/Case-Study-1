@@ -1,0 +1,89 @@
+.watch_div
+{
+    border-color:lawngreen;
+     border-width: 50px;
+    border-style: double;    
+}
+
+.heading
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: crimson;
+    color:white;
+    width:100%;
+    padding:5px;
+   margin-top:10px;
+}
+
+.j
+{
+    
+  font-size: large;
+color:yellow;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-shadow: 5px 5px 5px yellow;
+;
+}  
+.k
+{
+
+
+  font-size: large;
+color:cyan;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-shadow: 5px 5px 5px cyan;
+}  
+
+.watch_div
+{
+    background-color:chocolate ;
+    box-shadow: 5px 5px 5px 5px red;
+
+    
+    font-family: cursive;
+    padding-bottom:10px;
+    
+        animation-name:example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example
+    {
+        from{box-shadow:1px 1px 50px yellow;}
+        to{box-shadow:1px 1px 50px greenyellow;}
+
+    }
+body{
+    background-size: cover;
+}
+
+#bat_watch
+{
+
+    border-style:double;
+    border-color: black;
+    padding: 15px; 
+}
+
+.big
+{
+    margin-top: 15%;
+    background-color:lightcoral ;
+    box-shadow: 5px 5px 5px 5px red;
+    
+    color:crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom:10px;
+    
+        animation-name:example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example
+    {
+        from{box-shadow:1px 1px 50px blue;}
+        to{box-shadow:1px 1px 50px blueviolet;}
+
+    }
